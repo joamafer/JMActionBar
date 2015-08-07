@@ -73,10 +73,10 @@
                 NSLayoutConstraint *lineEqualWidthConstraint = [NSLayoutConstraint constraintWithItem:line
                                                                                             attribute:NSLayoutAttributeWidth
                                                                                             relatedBy:NSLayoutRelationEqual
-                                                                                               toItem:nil
+                                                                                               toItem:button
                                                                                             attribute:NSLayoutAttributeWidth
                                                                                            multiplier:1.0
-                                                                                             constant:100];
+                                                                                             constant:0];
                 NSLayoutConstraint *lineHeightConstraint = [NSLayoutConstraint constraintWithItem:line
                                                                                         attribute:NSLayoutAttributeHeight
                                                                                         relatedBy:NSLayoutRelationEqual
